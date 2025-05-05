@@ -1,0 +1,17 @@
+{
+ "tasks": [
+  {
+   "id": 1,
+   "title": "laundry",
+   "completed": true,
+   "created_at": "2025-05-01T16:55:44.58827099+03:00"
+  },
+  {
+   "id": 2,
+   "title": "make bed in the morning",
+   "completed": false,
+   "created_at": "2025-05-01T16:56:17.894581823+03:00"
+  }
+ ],
+ "next_id": 3
+}
