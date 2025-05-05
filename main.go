@@ -1,5 +1,6 @@
 package main
-// first commit
+
+// lmao
 import (
 	"bufio"
 	"encoding/json"
