@@ -1,4 +1,5 @@
 package main
+
 // first commit
 import (
 	"bufio"
@@ -84,7 +85,7 @@ func (tl *TaskList) GetTask(id int) (Task, error) {
 	return Task{}, errors.New("task not found")
 }
 
-// SaveToFile saves task to json file
+// SaveToFile saves task to json file and then close the file
 func (tl *TaskList) SaveToFile() error {
 	data, err := json.MarshalIndent(tl, "", " ")
 	if err != nil {
