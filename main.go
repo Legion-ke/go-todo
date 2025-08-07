@@ -143,7 +143,7 @@ func main() {
 		fmt.Printf("Error loading tasks: %v\n", err)
 		return
 	}
-	fmt.Println("Todo List Application")
+	fmt.Println("Todo List Application !!!")
 	fmt.Println("Type 'help' to see available commands")
 	for {
 		fmt.Print("> ")
